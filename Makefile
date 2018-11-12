@@ -2,7 +2,7 @@
 #
 
 DISTNAME=		syncdir-1.0
-PKGREVISION=		1
+PKGREVISION=		2
 CATEGORIES=		devel
 MASTER_SITES=		${HOMEPAGE}
 
@@ -12,6 +12,7 @@ COMMENT=		Synchronous open, link, rename, and unlink
 LICENSE=		gnu-gpl-v2
 
 USE_LIBTOOL=		yes
+USE_TOOLS+=		gmake
 
 INSTALLATION_DIRS=	lib
 
